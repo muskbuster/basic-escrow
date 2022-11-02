@@ -22,7 +22,7 @@ To get started with this template:
 * [Rust Smart Contract Quick Start](https://docs.near.org/docs/develop/contracts/rust/intro)
 * [Rust SDK Book](https://www.near-sdk.io/)
 
-# Advanced version of escrow which allows vesting and linear release is in development for a dex
+### Advanced version of escrow which allows vesting and linear release is in development for a dex
 
 near call escrowtrial.testnet deposits_of '{"payee":"escrowtrial.testnet"}' --accountId $ID
 near call escrowtrial.testnet withdraw '{"payee": "jobaftt.testnet","amount": "10000000000000"}' --accountId $ID of withdrawer only fucking
