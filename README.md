@@ -24,6 +24,8 @@ To get started with this template:
 
 ### Advanced version of escrow which allows vesting and linear release is in development for a dex
 
+```
 near call escrowtrial.testnet deposits_of '{"payee":"escrowtrial.testnet"}' --accountId $ID
-near call escrowtrial.testnet withdraw '{"payee": "jobaftt.testnet","amount": "10000000000000"}' --accountId $ID of withdrawer only fucking
+near call escrowtrial.testnet withdraw '{"payee": "jobaftt.testnet","amount": "10000000000000"}' --accountId $ID of withdrawer only 
 near call escrowtrial.testnet deposit '{"payee": "jobaftt.testnet","amount": "10000000000000"}' --accountId $ID --amount 100
+```
